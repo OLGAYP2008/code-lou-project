@@ -1,1 +1,2 @@
-arthur.js
+
+console.log("Hello")

@@ -1,54 +1,65 @@
-header, footer {
+header,
+footer {
     background-color: lightblue;
     border: solid 1px black;
-    color: maroon;
-    font-family: Verdana, Geneva, Tahoma, sans-serifa
-        }
+    color: rgb(224, 21, r);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-body
-    {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 20px;
-color: rgb(88, 38, 204);
-text-shadow: lightslategray;
-text-align:justify;
- }
-footer {
+body {
+
+    font-style: italic;
+}
+
+.flex-container {
+    display: flex;
     padding: 10px;
-    border-radius: 3px;
-    text-align: left;
-}
-header {
-    padding 10px;
-    border-radius: 4px;
+    justify-content: space-between;
 }
 
-#main {
+.Box-1 {
+    padding: 2em;
+    font: 300;
+    width: 45%;
+    overflow: hidden;
+    margin: 5px;
+    text-align: justify;
 
-    border: solid 1px #ccc;
-    border-radius: 10px;
-    color: #FF0000;
-    margin: 30px
-    font-weight: bold; 
-}
-    
-#bottom {
-float: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: 202020;
 }
 
-p {
-    color:mediumseagreen
-    font-size: 18px;
+.Box-1 img{
+    width:100%;
+    height: auto;
+}
+.Box-2 {
+    padding: 2em;
+    color: chartreuse;
+        width: 45%;
+    margin:5px;
+    text-align: justify;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
 
-    @media screen and (min-width: 800px) {
-        section .row {
-            max-width: 800px;
-            margin: auto;
-            display: flex;
-            justify-content: space-between;
-            
-        }
+.resources {
+    padding: 3em;
+    background-color: blue;
+    color: white;
+    border: 2px solid red;
+    margin: 3px;
+    border-radius: 100%;
+}
+
+@media screen and (min-width: 800px) {
+    section .row {
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+}
