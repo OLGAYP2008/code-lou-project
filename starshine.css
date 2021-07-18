@@ -1,14 +1,20 @@
+blockquote {
+    margin: 20px;
+}
+
 header,
 footer {
     background-color: lightblue;
     border: solid 1px black;
     color: rgb(224, 21, r);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 20px;
+    font:Papyrus;
 }
 
 body {
 
-    font-style: italic;
+    font-style: normal;
+    background-color:lightpink;
 }
 
 .flex-container {
@@ -20,38 +26,82 @@ body {
 .Box-1 {
     padding: 2em;
     font: 300;
-    width: 45%;
+    color: darkblue;
+    width: 300%;
+    overflow: hidden;
+    margin: 5px;
+    text-align: justify;
+
+
+}
+
+.Box-1 img {
+    width: 80%;
+    height: auto;
+    align-content: center;
+
+}
+
+.frame{
+    width: auto;
+}
+
+.Box-2 {
+    padding: 2em;
+    font: 300;
+    color:darkblue;
+    width: auto;
     overflow: hidden;
     margin: 5px;
     text-align: justify;
 
 }
 
-.Box-1 img{
-    width:100%;
+.Box-2 img {
+    width: 100%;
     height: auto;
-}
-.Box-2 {
-    padding: 2em;
-    color: chartreuse;
-        width: 45%;
-    margin:5px;
-    text-align: justify;
+    align-content: center;
+    border: black 10px;
 }
 
 .buttons {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .resources {
     padding: 3em;
-    background-color: blue;
+    border-radius: 200%;
+
+    background-color: cornflowerblue;
     color: white;
-    border: 2px solid red;
-    margin: 3px;
-    border-radius: 100%;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
 }
+
+
+.win {
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px 30px 30px;
+}
+
+.win-session {
+    padding: 3em;
+    border-radius: 200%;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    margin-top: auto;
+    margin-bottom: 0vmax;
+    align-content: center;
+}
+
 
 @media screen and (min-width: 800px) {
     section .row {
@@ -62,4 +112,9 @@ body {
 
     }
 
+
+h2 {
+    font-style: normal;
+    text-shadow: 20px;
+    text-align: justify;
 }
