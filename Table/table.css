@@ -1,0 +1,25 @@
+
+
+table, th, td {
+    border: 1px solid black;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
+  table {
+    border-spacing: 5px;
+  }
+  
+  tr:nth-of-type(odd) {
+    background-color: rebeccapurple;
+
+  }
+  tr:nth-of-type(even) {
+    background-color: rgba(128, 197, 119, 0.521);
+
+  }
+   

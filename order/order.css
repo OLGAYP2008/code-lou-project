@@ -1,0 +1,102 @@
+order.css
+blockquote {
+    margin: 20px;
+}
+
+header,
+footer {
+    background-color: cornflowerblue;
+    border: solid 2px whitesmoke;
+    color: white;
+    font:Papyrus;
+    font-weight: bold;
+    align-content: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+
+
+footer{
+    margin: auto;
+    padding: 25px;
+    
+
+}
+body {
+
+    font-style: normal;
+    background-color: lightpink;
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+    section .row {
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+h2 {
+    font-style: normal;
+    color:darkblue;
+    align-content:space-around;
+    justify-content:end;
+    
+}
+blockquote {
+    margin: 20px;
+}
+
+
+footer {
+    width: max-content;
+    padding: 20px;
+}
+body {
+
+    font-style: normal;
+    background-color:lightpink;
+
+}
+
+
+
+
+
+
+
+.Information {
+padding: 2em;
+font: 300;
+font-weight: bold;
+color: blue;
+width: auto;
+margin: 5px;
+text-align:justify;
+}
+
+h1{
+    color:darkblue;
+    font-weight: normal;
+    font-family: fantasy;
+}
+
+#hide{
+    display:none;
+}
+
+#show{
+    display:true;
+}
+
+#data{
+    display:none;
+}
