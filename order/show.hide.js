@@ -1,8 +1,18 @@
-function myFunction() {
-    var x = document.getElementById("Show Text");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
+
+const btn = document.querySelector(".btn");
+const content = document.querySelector(".content");
+
+btn.addEventListener("click", btnClick);
+
+function btnClick() {
+  console.log(content.classList);
+
+  if (content.classList.contains("hidden")) {
+    btn.textContent = "Скрыть элемент";
+  } else {
+    btn.textContent = "Показать элемент";
+  }
+
+  content.classList.toggle("hidden");
 }
+

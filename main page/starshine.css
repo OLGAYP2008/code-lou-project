@@ -38,6 +38,13 @@ body {
     overflow: hidden;
     margin: 5px;
     text-align: justify;
+    background-color:whitesmoke;
+    border: 10px cornflowerblue;
+    border-style: solid;
+
+
+
+
 
 
 }
@@ -68,6 +75,9 @@ body {
     overflow: hidden;
     margin: 5px;
     text-align: justify;
+    background-color:whitesmoke;
+    border: 10px cornflowerblue;
+    border-style: solid;
 }
 
 .Box-2 img {
