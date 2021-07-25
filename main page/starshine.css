@@ -190,22 +190,23 @@ h2 {
 
 
 }
-
+/*
 @media screen and (min-width: 769px) {
     section .row {
         max-width: 800px;
-
         margin: auto;
         display: flex;
         justify-content: space-between;
 
     }
 
+
+
     .buttons {
 
         flex-direction: row;
     }
-}
+}*/
 
 @media screen and (min-width: 992px) {
     .row {
@@ -227,7 +228,7 @@ h2 {
     background-color: rebeccapurple;
     margin-top: 20px;
 
-
+}
     #resume {
         color: white;
     }
@@ -249,24 +250,28 @@ h2 {
 
     }
 
-    @media screen and (min-width: 40em) {
-        article {
-            display: grid;
-            grid-template-columns: 3fr 1fr;
-            column-gap: 20px;
-        }
+    /*
+@media screen and (min-width: 769px) {
+    section .row {
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}*/
 
+   
     @media screen and (min-width: 992px) {
         .row {
             width: 500%;
 
         }
-
+    }
         
         @media screen and (max-width: 600px) {
             body {
                 background-color: lemonchiffon;
-                width: 150%;
+                width: 100%;
             }
         }
 

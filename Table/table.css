@@ -22,4 +22,12 @@ table, th, td {
     background-color: rgba(128, 197, 119, 0.521);
 
   }
+
+  
+  #myDIV {
+    width: 50%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rebeccapurple;
+    margin-top: 20px;
    
