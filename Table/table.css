@@ -23,6 +23,12 @@ table, th, td {
 
   }
 
+  #h2{
+    text-align: center;
+  }
+
+  
+  
   
   #myDIV {
     width: 50%;
@@ -30,4 +36,4 @@ table, th, td {
     text-align: center;
     background-color: rebeccapurple;
     margin-top: 20px;
-   
+  }
