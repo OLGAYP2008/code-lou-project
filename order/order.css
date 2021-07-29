@@ -1,8 +1,4 @@
 
-blockquote {
-    margin: 20px;
-}
-
 header,
 footer {
     background-color: cornflowerblue;
@@ -32,5 +28,6 @@ body {
 
 .footer{
     position: absolute;
+    margin: 0;
 
 }
