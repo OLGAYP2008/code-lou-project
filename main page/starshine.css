@@ -2,13 +2,26 @@ blockquote {
     margin: 20px;
 }
 
+
 header, footer {
     background-color: cornflowerblue;
     border: solid 2px whitesmoke;
     color: white;
     font: Papyrus;
     font-weight: bold;
-    align-content: center;
+    align-content:right;
+    margin: auto;
+    overflow: hidden;
+}
+
+.footer{
+    text-align: center;
+    background-color: cornflowerblue;
+    border: solid 2px whitesmoke;
+    color: white;
+    font: Papyrus;
+    font-weight: bold;
+    
     margin: auto;
     overflow: hidden;
 }
@@ -164,6 +177,9 @@ h2 {
 
 #winsession {
     color: white;
+}
+#footer{
+    align-content: center;
 }
 
 @media screen and (min-width: 40em) {
