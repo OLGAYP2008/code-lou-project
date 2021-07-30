@@ -37,7 +37,10 @@ body {
     color: darkblue;
 }
 
-
+.textarea{
+    margin-bottom: 30px;
+    padding: 3rem;
+}
 
 .h2 {
     color: darkblue;
@@ -45,6 +48,9 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.textarea{
+    max-width: 100px;
+}
 .footer{
     position: absolute;
     margin: -50;
